@@ -1,4 +1,4 @@
-# Funny-design(HTML-CSS-JavaScript-jQuer)
+# Funny-design(HTML-CSS-JavaScript-jQuery)
 Record and began to make small demo at ordinary times, mainly involves the front-end technology is JavaScript、css、html、jquery and so on.
 
 ## lightBox —— 画廊
