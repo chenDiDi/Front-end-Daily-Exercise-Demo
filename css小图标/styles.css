@@ -1,0 +1,143 @@
+*{padding: 0; margin: 0;}
+
+.main_con{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/*空心圆*/
+.hollowCircle{
+    width: 70px;
+    height: 70px;
+    margin: 0 20px;
+    border: 10px solid #000;
+    border-radius: 50%;
+}
+/*同心圆*/
+.concentricCircle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 10px solid #000;
+    background: #000;
+    background-clip: content-box;  /*背景被裁剪到内容框。IE9及以上*/
+    float: left;
+}
+/*三竿*/
+.icon1{
+    margin: 20px;
+    width: 50px;
+    height: 10px;
+    border-top: 30px double #000;
+    border-bottom: 10px solid #000;
+}
+.icon2{
+    margin: 20px;
+    width: 50px;
+    height: 10px;
+    padding: 10px 0;
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+    background: #000;
+    background-clip: content-box;
+}
+/*心*/
+.heart{
+    width: 100px;
+    height: 90px;
+    position: relative;
+}
+.heart:before,
+.heart:after{
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #333;
+    -webkit-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+.heart:after{
+    left: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+/*梯形 */
+.trapezoid {
+    margin: 0 20px;
+    width: 40px;
+    height: 40px;
+    border: 30px solid;
+    border-color: coral wheat blueviolet pink;
+}
+/*小三角*/
+.triangle{
+    margin-left: 20px;
+    width: 0;
+    height: 0;
+    /*处理ie6最小高度问题*/
+    overflow: hidden;
+    border-width: 50px;
+    border-color: #333 transparent transparent transparent;
+    /*border-style: solid;*/
+    /*处理ie下背景色为黑色的情况*/
+    border-style: solid dashed dashed dashed;
+}
+
+/*十字架*/
+.cross {
+    margin: 0 20px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.cross:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    border-top: #333 20px solid;
+    margin: 40px 0 0 0;
+}
+.cross:after{
+    content: "";
+    position: absolute;
+    height: 100px;
+    border-left: #333 20px solid;
+    margin: 0 40px 0px 40px;
+}
+/*尖爪*/
+.panicus{
+    width: 80px;
+    height: 80px;
+    border-radius: 25%;
+    background: #eee;
+    border-top: 20px solid #333;
+    border-bottom: 20px solid #fff;
+    border-left: 0px solid #333;
+    border-right: 20px solid #fff;
+}
+/*三角鱼*/
+.triangleFish{
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    background: radial-gradient(10px 0px,transparent 70%,#333 30%);
+    background: -webkit-radial-gradient(10px 0px,transparent 70%,#333 30%);
+    background: -o-radial-gradient(10px 0px,transparent 70%,#333 30%);
+    background: -moz-radial-gradient(10px 0px,transparent 70%,#333 30%);
+}
+
+
+
+
+
