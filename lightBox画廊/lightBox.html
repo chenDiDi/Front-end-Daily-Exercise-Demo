@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lightBox画廊</title>
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <div>
+            <!--class="js-lightbox"代表这个元素要触发lightbox<br/>-->
+            <!--data-role="lightbox"代表这个元素要触发lightbox<br/>-->
+            <!--data-source="images/1-1.jpg"原图地址(放大图片资源)<br/>-->
+            <!--data-group代表这个元素是否属于一个组别<br/>-->
+            <!--data-id图片的唯一标识<br/>-->
+            <!--data-caption图片的描述文字<br/>-->
+        </div>
+        <h3>图片画廊</h3>
+        <div class="showView">
+            <img class="js-lightbox" data-role="lightbox" data-source="images/spring.jpg" data-group="group" src="images/spring.jpg" data-id="1" data-caption="spring" >
+            <img class="js-lightbox" data-role="lightbox" data-source="images/summer.jpg" data-group="group" src="images/summer.jpg" data-id="2" data-caption="summer">
+            <img class="js-lightbox" data-role="lightbox" data-source="images/autumn.jpg" data-group="group" src="images/autumn.jpg" data-id="3" data-caption="autumn">
+            <img class="js-lightbox" data-role="lightbox" data-source="images/winter.jpg" data-group="group" src="images/winter.jpg" data-id="4" data-caption="winter">
+            <img class="js-lightbox" data-role="lightbox" data-source="images/brook.jpg" data-group="group" src="images/brook.jpg" data-id="5" data-caption="brook">
+            <img class="js-lightbox" data-role="lightbox" data-source="images/tree.jpg" data-group="group" src="images/tree.jpg" data-id="6" data-caption="tree">
+            <img class="js-lightbox" data-role="lightbox" data-source="images/screen.jpg" data-group="group" src="images/screen.jpg" data-id="7" data-caption="screen">
+            <img class="js-lightbox" data-role="lightbox" data-source="images/sunset.jpg" data-group="group" src="images/sunset.jpg" data-id="8" data-caption="sunset">
+            <img class="js-lightbox" data-role="lightbox" data-source="images/sprout.jpg" data-group="group" src="images/sprout.jpg" data-id="9" data-caption="sprout">
+            <img class="js-lightbox" data-role="lightbox" data-source="images/various.jpg" data-group="group" src="images/various.JPG" data-id="10" data-caption="various">
+        </div>
+        <!--遮罩
+        <div id="G-lightbox-mask"></div>
+        <!--弹出层
+        <div id="G-lightbox-popup">
+            <div class="lightbox-pic-view">
+                <span class="lightbox-btn lightbox-prev-btn"></span>
+                <img class="lightbox-image" src="images/2-2.jpg" />
+                <span class="lightbox-btn lightbox-next-btn"></span>
+            </div>
+            <div class="lightbox-pic-caption">
+                <div class="lightbox-caption-area">
+                    <p class="lightbox-pic-desc">title</p>
+                    <span class="lightbox-of-index">current index: 1 of 3</span>
+                </div>
+                <span class="lightbox-close-btn"></span>
+            </div>
+        </div>-->
+    </div>
+    <!--[if IE 6]>
+    <script src="js/DD_belatedPNG.js"></script>
+    <script>
+        /* EXAMPLE */
+        DD_belatedPNG.fix('.png_bg');
+
+        /* string argument can be any CSS selector */
+        /* .png_bg example is unnecessary */
+        /* change it to what suits you! */
+    </script>
+    <![endif]-->
+    <script src="js/jquery-1.12.3.js" rel="script" type="text/javascript"></script>
+    <script src="js/lightBox.js" rel="script" type="text/javascript"></script>
+    <script src="js/main.js" rel="script" type="text/javascript"></script>
+</body>
+</html>
