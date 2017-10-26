@@ -1,0 +1,63 @@
+#impact {
+    background: #d9d9d9;
+}
+#impact .hreview {
+    position: relative;
+    padding: 0 10px;
+    border: none;
+}
+#impact h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.caption {
+    position: absolute;
+    top: auto;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    line-height: 1.1;
+    background: rgba(0,0,0, .45);
+}
+.caption blockquote,
+.caption .reviewer {
+    margin: 0 6px;
+    padding: 0;
+}
+.caption blockquote {
+    margin-top: 4px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+}
+.caption .reviewer {
+    margin-top: 2px;
+    margin-bottom: 4px;
+    text-align: right;
+    color: #fff;
+}
+.review-item-1 .caption{
+    top: 0;
+    left: 0;
+    right: 10px;
+    bottom: auto;
+}
+.review-item-3 .caption{
+    top: 0;
+    left: 17%;
+    right: 10px;
+    bottom: auto;
+}
+.review-item-5 .caption{
+    top: 0;
+    left: 56%;
+    right: 10px;
+    bottom: auto;
+}
+.review-item-5 .caption .reviewer {
+    margin-top: 6px;
+    text-align: left;
+}
+.hreview.thumbnail {
+    background-color: transparent;
+}
