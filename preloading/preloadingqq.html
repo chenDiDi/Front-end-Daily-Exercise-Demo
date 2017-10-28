@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>图片预加载之无序加载——表情</title>
+        <style type="text/css">
+            body, p, li, ul {
+                padding: 0;
+                margin: 0;
+            }
+            body {
+                background-color: #eee;
+            }
+            .box {
+                margin: 150px 0 0 200px;
+            }
+            #face-btn {
+                display: block;
+                color: #333;
+            }
+            .panel {
+                display: none;
+                width: 500px;
+                padding: 2px;
+                border: 1px solid #ccc;
+                background-color: #fff;
+            }
+            .loading {
+                text-align: center;
+            }
+            a {
+                text-decoration: none;
+            }
+            li {
+                list-style: none;
+            }
+            .list li {
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                border: 1px solid #fff;
+                margin-bottom: 5px;
+                cursor: pointer;
+            }
+            .list li img {
+                display: block;
+                width: 40px;
+                height: 40px;
+            }
+            .list li:hover {
+                border: 1px solid #06c;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <a href="javascript:;" id="face-btn">表情</a>
+            <div class="panel" id="panel">
+                <p class="loading">表情加载中，请稍等</p>
+               <!-- <ul class="list">
+                    <li><img src="face/qq/0.gif" alt=""></li>
+                    <li><img src="face/qq/1.gif" alt=""></li>
+                    <li><img src="face/qq/2.gif" alt=""></li>
+                    <li><img src="face/qq/3.gif" alt=""></li>
+                    <li><img src="face/qq/4.gif" alt=""></li>
+                    <li><img src="face/qq/5.gif" alt=""></li>
+                    <li><img src="face/qq/6.gif" alt=""></li>
+                    <li><img src="face/qq/7.gif" alt=""></li>
+                    <li><img src="face/qq/8.gif" alt=""></li>
+                    <li><img src="face/qq/9.gif" alt=""></li>
+                    <li><img src="face/qq/10.gif" alt=""></li>
+                    <li><img src="face/qq/11.gif" alt=""></li>
+                    <li><img src="face/qq/12.gif" alt=""></li>
+                    <li><img src="face/qq/13.gif" alt=""></li>
+                </ul> -->
+            </div>
+        </div>
+        <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+        <script type="text/javascript" src="js/preload.js"></script>
+        <script type="text/javascript">
+        var isOut = true; //保存鼠标是否在div中这个状态(默认不在区域中)
+        var $btn = $('#face-btn'),
+            $panel = $('.panel'),
+            imgs = [];
+        for (var i = 0; i < 14; i++) {
+            imgs[i] = 'face/qq/' + i + '.gif';
+        };
+        var len = imgs.length;
+        $btn.on("click", function (e) {
+            e.stopPropagation();
+            $panel.show();
+            $.preload(imgs, {
+                all: function () {
+                    var html = '';
+                    html += '<ul class="list" onmouseover="isOut=false" onmouseout="isOut=true">';
+                    for (var i = 0; i < len; i++) {
+                        html += '<li><img src="' + imgs[i] + '" alt=""/></li>';
+                    };
+                    html += '</ul>';
+                    $panel.html(html);
+                }
+            })
+
+        });
+        $(document).bind('click', function () {
+            if (isOut) {
+                $panel.hide();
+            };
+        })
+        </script>
+    </body>
+</html>
