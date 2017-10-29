@@ -12,6 +12,7 @@ Record and began to make small demo at ordinary times, mainly involves the front
 
 ## funny icon —— icon图标
 - the use of technology is html、 CSS
+- icon title: 
 - Implementation effect is as follows: ![funny icon](./effectImg/cssIcon.png)
 
 ## Image Preloading —— 图片预加载
