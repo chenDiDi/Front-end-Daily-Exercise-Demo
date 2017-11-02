@@ -15,6 +15,11 @@ Record and began to make small demo at ordinary times, mainly involves the front
 - icon title: 
 - Implementation effect is as follows: ![funny icon](./effectImg/cssIcon.png)
 
+## webSite smooth transition —— 使用css实现网页平滑过渡
+- study by imooc course —— 使用css实现网页平滑过渡
+- Using CSS to realize smooth transition
+- Implementation effect is as follows: <br/> ![realize smooth transition](./effectImg/websiteTransform.gif)
+
 ## Image Preloading —— 图片预加载
 - study by imooc course —— 图片预加载
 - Using jQuery encapsulated into a plug-in
