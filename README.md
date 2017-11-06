@@ -11,6 +11,7 @@ Record and began to make small demo at ordinary times, mainly involves the front
 - Implementation effect is as follows: ![Masonry photo wall](./effectImg/photoWall.png)
 
 ## Tooltip —— 标题气泡效果
+- study by imooc course —— 使用css3实现标题气泡效果
 - the use of technology is CSS3
 - Using CSS 3 bubble navigation hover effect
 - Implementation effect is as follows: ![funny icon](./effectImg/tooltip.gif)
