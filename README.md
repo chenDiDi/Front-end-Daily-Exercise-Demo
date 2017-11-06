@@ -31,5 +31,4 @@ Record and began to make small demo at ordinary times, mainly involves the front
 - Using jQuery encapsulated into a plug-in
 - Included images ordered and unordered preload
 - Implementation effect is as follows: <br/> 
-![Masonry photo wall](./effectImg/preload1.png)
-![Masonry photo wall](./effectImg/preload2.png)
+![Masonry photo wall](./effectImg/preload.gif)
