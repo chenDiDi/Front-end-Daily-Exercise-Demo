@@ -10,6 +10,11 @@ Record and began to make small demo at ordinary times, mainly involves the front
 - Using Masonry plugin
 - Implementation effect is as follows: ![Masonry photo wall](./effectImg/photoWall.png)
 
+## Tooltip —— 标题气泡效果
+- the use of technology is CSS3
+- Using CSS 3 bubble navigation hover effect
+- Implementation effect is as follows: ![funny icon](./effectImg/tooltip.gif)
+
 ## funny icon —— icon图标
 - the use of technology is html、 CSS
 - icon title: 
@@ -25,5 +30,6 @@ Record and began to make small demo at ordinary times, mainly involves the front
 - study by imooc course —— 图片预加载
 - Using jQuery encapsulated into a plug-in
 - Included images ordered and unordered preload
-- Implementation effect is as follows: <br/> ![Masonry photo wall](./effectImg/preload1.png)
+- Implementation effect is as follows: <br/> 
+![Masonry photo wall](./effectImg/preload1.png)
 ![Masonry photo wall](./effectImg/preload2.png)
