@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>考试界面</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Campatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/topic.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<script type="text/javascript" src="js/topic.js"></script>
+</head>
+<body>
+	<div class="comWidth">
+		<div class="header">
+			<h1>常识考试试题(初级)</h1>
+			<form action="…….asp" method="post"><!-- 导出用户信息的asp -->
+				<div class="input"><span>考生姓名:</span><input type="text" name="sname"></div>
+				<div class="input"><span>考试时间:</span><input type="text" name="ttime"></div>
+			</form>
+			<div class="hr"></div>
+		</div>
+		<form action="" method="post"><!--提交保存内容的asp -->
+			<div class="topic">
+			<h2>一、单选题（共3题）</h2>
+			<div class="topic_all">
+				<div class="div_title_question">1、工笔是哪种绘画形式的技法？</div>
+				<div class="div_content_question">
+					<ul>
+						<li><input type="radio" id="sq1_1" value="1" name="q1" checked="checked"><label for="sq1_1">水彩画</label></li>
+						<li><input type="radio" id="sq1_2" value="2" name="q1"><label for="sq1_2">油画</label></li>
+						<li><input type="radio" id="sq1_3" value="3" name="q1"><label for="sq1_3">水粉画</label></li>
+						<li><input type="radio" id="sq1_4" value="4" name="q1"><label for="sq1_4">国画</label></li>
+					</ul>
+					<div class="hr"></div>
+				</div>
+			</div>
+			<div class="topic_all">
+				<div class="div_title_question">2、“冰激凌”是从哪国传进的外来语？</div>
+				<div class="div_content_question">
+					<ul>
+						<li><input type="radio" id="sq2_1" value="1" name="q2" checked="checked"><label for="sq2_1">英国</label></li>
+						<li><input type="radio" id="sq2_2" value="2" name="q2"><label for="sq2_2">法国</label></li>
+						<li><input type="radio" id="sq2_3" value="3" name="q2"><label for="sq2_3">美国</label></li>
+						<li><input type="radio" id="sq2_4" value="4" name="q2"><label for="sq2_4">俄国</label></li>
+					</ul>
+					<div class="hr"></div>
+				</div>
+			</div>
+			<div class="topic_all">
+				<div class="div_title_question">3、“席梦思”三个字源于什么？</div>
+				<div class="div_content_question">
+					<ul>
+						<li><input type="radio" id="sq3_1" value="1" name="q3" checked="checked"><label for="sq3_1">人名</label></li>
+						<li><input type="radio" id="sq3_2" value="2" name="q3"><label for="sq3_2">地名</label></li>
+						<li><input type="radio" id="sq3_3" value="3" name="q3"><label for="sq3_3">某种文化</label></li>
+						<li><input type="radio" id="sq3_4" value="4" name="q3"><label for="sq3_4">植物名</label></li>
+					</ul>
+					<div class="hr"></div>
+				</div>
+			</div>	
+		</div>
+		<div class="topic">
+			<h2>二、多选题（共3题）</h2>
+			<div class="topic_all">
+				<div class="div_title_question">1、“八仙过海”中的八仙除铁拐李、张果老、吕洞宾、曹国舅外还有谁？</div>
+				<div class="div_content_question">
+					<ul>
+						<li><input type="checkbox" id="mq1_1" name="mq1" value="1" checked="checked"><label for="mq1_1">韩非子、蓝采和、何翠姑、汉钟离</label></li>
+						<li><input type="checkbox" id="mq1_2" name="mq1" value="2" ><label for="mq1_2">蓝采和、何仙姑、韩非子、汉钟离</label></li>
+						<li><input type="checkbox" id="mq1_3" name="mq1" value="3" ><label for="mq1_3">韩湘子、蓝采 和、何仙姑、红孩儿</label></li>
+						<li><input type="checkbox" id="mq1_4" name="mq1" value="4" ><label for="mq1_4">韩湘子、蓝采和、何仙姑、汉钟离</label></li>
+					</ul>
+					<div class="hr"></div>
+				</div>
+			</div>
+			<div class="topic_all">
+				<div class="div_title_question">2、“无冕之王”的由来与下列哪一个有关？</div>
+				<div class="div_content_question">
+					<ul>
+						<li><input type="checkbox" id="mq2_1" value="1" name="mq2" checked="checked"><label for="mq2_1">英国《泰晤士报》</label></li>
+						<li><input type="checkbox" id="mq2_2" value="2" name="mq2"><label for="mq2_2">法国《费加罗报》</label></li>
+						<li><input type="checkbox" id="mq2_3" value="3" name="mq2"><label for="mq2_3">美国《太阳报》</label></li>
+						<li><input type="checkbox" id="mq2_4" value="4" name="mq2"><label for="mq2_4">德国《明镜》</label></li>
+					</ul>
+					<div class="hr"></div>
+				</div>
+			</div>
+			<div class="topic_all">
+				<div class="div_title_question">3、老三届指的是那几年毕业的初、高中毕业生 ？</div>
+				<div class="div_content_question">
+					<ul>
+						<li><input type="checkbox" id="mq3_1" value="1" name="mq3" checked="checked"><label for="mq3_1">1964--1966</label></li>
+						<li><input type="checkbox" id="mq3_2" value="2" name="mq3"><label for="mq3_2">1966--1968</label></li>
+						<li><input type="checkbox" id="mq3_3" value="3" name="mq3"><label for="mq3_3">1969--1971</label></li>
+						<li><input type="checkbox" id="mq3_4" value="4" name="mq3"><label for="mq3_4">1971--1973</label></li>
+					</ul>
+					<div class="hr"></div>
+				</div>
+			</div>
+		</div>
+		<div class="topic">
+			<h2>三、填空题（共3题）</h2> <!-- 填空题：Completion_question-->
+			<div class="topic_all">
+				<div class="div_title_question">1、馒头起源于：</div>
+				<div class="div_content_question Conpletion_question">
+					<span>答：</span>
+					<input type="text" name="cq1" id="cq1">
+					<div class="hr"></div>
+				</div>
+			</div>
+			<div class="topic_all">
+				<div class="div_title_question">2、数学符号中的“0”起源于：</div>
+				<div class="div_content_question Conpletion_question">
+					<span>答：</span>
+					<input type="text" name="cq2" id="cq2">
+					<div class="hr"></div>
+				</div>
+			</div>
+			<div class="topic_all">
+				<div class="div_title_question">3、被公认为体育运动和健美体魄象征的雕像是：</div>
+				<div class="div_content_question Conpletion_question">
+					<span>答：</span>
+					<input type="text" name="cq3" id="cq3">
+					<div class="hr"></div>
+				</div>
+			</div>
+		</div>
+		<div class="topic">
+			<h2>四、简答题（共1题）</h2> <!-- 简答题： short-answer question-->
+			<div class="topic_all">
+				<div class="div_title_question">1、谈谈你心中的泰姬陵：</div>
+				<div class="div_content_question short_answer_question">
+					<span>答：</span>
+					<textarea class="textares"></textarea>
+					<div class="hr"></div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<input type="submit" id="content_submit" name="submit" value="提交" onclick="submit()">
+		</div>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+/*all*/
+body{
+	margin: 0;
+	padding: 0;
+	background: #ccc url(../images/bj2.jpg);
+	font-family: "微软雅黑","Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+}
+.comWidth{
+	margin: 0 auto;
+	width: 950px;
+	background: rgba(0,0,0,.05);
+}
+label{
+	padding-left: 5px;
+}
+.hr_15{
+	height: 15px;
+}
+.hide{
+	display: none;
+}
+
+/*header*/
+.header{
+	width: 780px;
+	height: 120px;
+	margin: 40px auto;
+	margin-bottom: 20px;
+}
+.header h1{
+	font-size: 30px;
+	padding-top: 15px;
+	text-align: center;
+}
+.header span{
+	font-size: 20px;
+	margin-right: 10px;
+}
+.header .input{
+	margin: 0 0 5px 20px;
+}
+.header input{
+	font-size: 20px;
+}
+.hr{
+	border-bottom: #F7F7F7 solid 1px;
+	margin: 10px 0;
+}
+
+/*topic*/
+.topic{
+	width: 800px;
+	margin: 10px auto;
+	word-wrap: break-word;
+}
+.topic_all{
+	text-align: left;
+	margin: 10px 10px;
+	font-size: 16px;
+}
+.div_title_question{
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.div_content_question li{
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.div_content_question .hr{
+	border-bottom: #efefef dashed 1px;
+	margin-bottom: 5px;
+}
+/*Conpletion_question*/
+.Conpletion_question input{
+	_background:#fff;
+	background: rgba(255,255,255,.7);
+	width: 89%;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 5px;
+	font-size: 18px;
+	word-wrap: break-word;
+}
+
+/*short_answer_question*/
+.short_answer_question{
+	position: relative;
+}
+.short_answer_question span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 5px 5px;
+}
+.short_answer_question .textares{
+	height: 150px;
+	width: 89%;
+	font-size: 18px;
+	word-wrap: break-word;
+	padding: 5px 5px 5px 35px;
+	background: rgba(255,255,255,.7);
+	_background:#fff;
+}
+/*footer*/
+.footer{
+	height: 90px;
+	line-height: 50px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.footer input{
+	background: #FF8C30;
+	width: 80px;
+	height: 32px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 32px;
+	padding: 0 24px;
+	border-radius: 5px;
+	margin: 25px auto;
+}
