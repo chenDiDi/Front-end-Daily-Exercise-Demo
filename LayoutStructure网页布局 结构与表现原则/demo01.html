@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>网页布局 结构与表现原则 （网页换肤：相同的html 不同的css ）</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+
+	<style type="text/css">
+		body,p,h1,h2,h3,h4,h5,h6,form,input,ul,ol,hr{margin: 0; padding: 0; font: 14px/1.5,normal,"Arial","sans-serif","微软雅黑","宋体","Tahoma"; color: #666;}
+		ul.ol{list-style: none;}
+
+		.demo02{width: 600px; position: relative;margin: 20px 0; overflow: hidden;}
+		.demo02 img{float: left; margin-left: 25px;}
+		.demo02 .right{width: 458px; padding: 20px; float: right; background: #9cf; border: solid 1px #ccc; }
+		.demo02 .right p{font-size: 12px; line-height: 25px; margin-top: 10px; text-indent: 24px;}
+		.demo02 span{position: absolute; right: 20px; top: 25px; font-size: 12px;}
+
+		.demo03{width: 458px; padding: 20px; margin-left: 100px; background: #9cf; border: solid 1px #ccc; position: relative;}
+		.demo03 img{float: left; margin: -20px 0 0 -100px;}
+		.demo03 p{font-size: 12px; line-height: 25px; margin-top: 10px; text-indent: 24px;}
+		.demo03 span{position: absolute; right: 20px; top: 25px; font-size: 12px;}
+	</style>
+</head>
+<body>
+	<div class="demo02">
+		<img src="images/head02.jpg">
+		<div class="right">
+			<h3>拼命姑娘</h3>
+			<p>第2种方式虽然减少了代码量，但是我并不赞同这种写法。第一是这样写结构不清晰，跟全用绝对定位没区别。第二是不利于扩展，如果我以后要在图片下添加说明文字，我是不是得在写一个p往左溢出？</p>
+			<span>10分钟之前</span>
+		</div>
+	</div>
+	<!-- 高级 结构与表现分离 不推荐-->
+	<div class="demo03">
+		<img src="images/head02.jpg">
+		<h3>拼命姑娘</h3>
+		<p>第2种方式虽然减少了代码量，但是我并不赞同这种写法。第一是这样写结构不清晰，跟全用绝对定位没区别。第二是不利于扩展，如果我以后要在图片下添加说明文字，我是不是得在写一个p往左溢出？</p>
+		<span>10分钟之前</span>
+	</div>
+</body>
+</html>

@@ -8,33 +8,40 @@ Record and began to make small demo at ordinary times, mainly involves the front
 
 ## Masonry photo wall —— 图片墙
 - Using Masonry plugin
-- Implementation effect is as follows: ![Masonry photo wall](./effectImg/photoWall.png)
+![Masonry photo wall](./effectImg/photoWall.png)
 
 ## Tooltip —— 标题气泡效果
 - study by imooc course —— 使用css3实现标题气泡效果
 - the use of technology is CSS3
 - Using CSS 3 bubble navigation hover effect
-- Implementation effect is as follows: ![funny icon](./effectImg/tooltip.gif)
+![funny icon](./effectImg/tooltip.gif)
+
+## Guide for the first time —— 首次加载页面新手指引
+- Loading page newbie guide for the first time —— study by imooc course
+- 通过cookies判断是否显示新手指引，需设置cookies过期时间，有js和jq两个版本
+![GuideForFirstTime](./effectImg/GuideForFirstTime.png)
 
 ## funny icon —— icon图标
 - the use of technology is html、 CSS
 - icon title: 
-- Implementation effect is as follows: ![funny icon](./effectImg/cssIcon.png)
+ ![funny icon](./effectImg/cssIcon.png)
 
 ## webSite smooth transition —— 使用css实现网页平滑过渡
 - study by imooc course —— 使用css实现网页平滑过渡
 - Using CSS to realize smooth transition
 - Support page response type
-- Implementation effect is as follows: <br/> ![realize smooth transition](./effectImg/websiteTransform.gif)
+![realize smooth transition](./effectImg/websiteTransform.gif)
 
 ## Image Preloading —— 图片预加载
 - study by imooc course —— 图片预加载
 - Using jQuery encapsulated into a plug-in
 - Included images ordered and unordered preload
-- Implementation effect is as follows: <br/> 
 ![Masonry photo wall](./effectImg/preload.gif)
+
+## In layout of structure and style of thinking —— 对布局结构与样式表现的思考
+- 不同结构结合样式显示相同页面效果
+![Layout Structure](./effectImg/LayoutAndStructure.png)
 
 ## Examination system interface —— 考试系统试题页面
 - Static layout design examination system interface implementation
-- Implementation effect is as follows: <br/> 
 ![Examination system interface](./effectImg/ExaminationInterface.png)
