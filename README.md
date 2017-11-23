@@ -21,6 +21,11 @@ Record and began to make small demo at ordinary times, mainly involves the front
 - 通过cookies判断是否显示新手指引，需设置cookies过期时间，有js和jq两个版本
 ![GuideForFirstTime](./effectImg/GuideForFirstTime.png)
 
+## Js Magnify Pic —— js实现淘宝图片部分放大观看效果
+- Js Magnify Pic —— study by imooc course
+- 通过对位置的处理进行图片的显示
+![JsMagnifyPic](./effectImg/jsMagnify.png)
+
 ## funny icon —— icon图标
 - the use of technology is html、 CSS
 - icon title: 
